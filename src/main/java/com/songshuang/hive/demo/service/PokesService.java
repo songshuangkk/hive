@@ -1,4 +1,4 @@
-package com.songshuang.hive.demo.domain.test.service;
+package com.songshuang.hive.demo.service;
 
 import com.songshuang.hive.demo.domain.test.model.Pokes;
 

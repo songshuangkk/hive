@@ -1,8 +1,8 @@
-package com.songshuang.hive.demo.domain.test.service.impl;
+package com.songshuang.hive.demo.service.impl;
 
 import com.songshuang.hive.demo.domain.test.model.Pokes;
 import com.songshuang.hive.demo.domain.test.repository.PokesRepository;
-import com.songshuang.hive.demo.domain.test.service.PokesService;
+import com.songshuang.hive.demo.service.PokesService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
