@@ -2,5 +2,12 @@ spring:
   application:
     name: hive-demo
   datasource:
-    hikari:
-      jdbc-url: jdbc:hive://localhost:10000
+    driver-class-name: org.apache.hive.jdbc.HiveDriver
+    url: jdbc:hive2://localhost:10000/default
+server:
+  port: 8888
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
